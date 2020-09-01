@@ -22,7 +22,7 @@ $ docker exec -it postgres-recipes_db_1 psql -U postgres
 ```sql
 \set PROMPT1 '(%n@%M:%>) [%/]%R%#%x > '
 ```
- the prompt will now appear as (postgres)=#
+ the prompt will now appear as: (*username*@*hostname*:*port*) \[*dbname*\]=# >
 - **%** is a substitution placeholder
 - **%n** db session username
 - **%M** full host name
